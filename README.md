@@ -18,6 +18,19 @@ Get-FileHash .\super-vault-<versão>-windows-x64-setup.exe -Algorithm SHA256
 
 A instalação é por usuário, sem pedir administrador. Instalar, atualizar ou desinstalar não mexe nos seus cofres. O instalador ainda não é assinado digitalmente, então o Windows SmartScreen avisa na primeira execução.
 
+## Doações
+
+O super-vault é gratuito, sem anúncios e sem telemetria. Se ele for útil para você, considere uma doação em cripto:
+
+| Moeda | Rede | Endereço |
+|---|---|---|
+| BTC | Bitcoin | `bc1ql2eqx4samvnws8u33sf3sxue29mgx8hjptd2dr` |
+| ETH e USDC | Ethereum (ERC-20) | `0x26163ef9c4b07Fa7cEe5ecb68c2D61973289FF81` |
+| SOL | Solana | `46rrstUk6AKGPkU6LKRwMxUtMeUie7xcPwSq2zSzMN36` |
+| XLM | Stellar | `GDFE3CH63OUZU3URRFNRYBFCTMNSBQZ4C4XHPCTQWALBRVTV2QNJ2JCO` |
+
+Envie USDC só pela rede Ethereum. Depois de colar o endereço na carteira, confira os primeiros e os últimos caracteres: malware de área de transferência pode trocar o endereço copiado. Os mesmos endereços aparecem na tela inicial do app e em [fabbricio/super-vault-releases](https://github.com/fabbricio/super-vault-releases).
+
 ## Licença
 
 MIT OR Apache-2.0, à sua escolha: [LICENSE-MIT](LICENSE-MIT) e [LICENSE-APACHE](LICENSE-APACHE).
